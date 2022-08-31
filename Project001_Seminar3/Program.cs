@@ -46,3 +46,30 @@ if (number!.Length == 5){
   CheckingNumber(number);
 }
 else Console.WriteLine($"Введите правильное число");
+
+// string ReverseString(string str)
+// {
+//   string result = String.Empty;
+//   for(int i = 0; i < str.Length; i++);
+//   {
+//     result += str[str.Length - 1];
+//   }
+//   return result;
+// }
+
+// var input = Console.ReadLine();
+// bool result = CheckPalindrom(input);
+// if (result)
+// {
+//   Console.WriteLine("It is palindrom");
+// }
+// else
+// {
+//   Console.WriteLine("It is not palindrom");
+// }
+
+// bool CheckPalindrom(string str)
+// {
+//   string reverseString = ReverseString(str);
+//   return str == reverseString;
+// }
