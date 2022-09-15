@@ -45,7 +45,6 @@ void FillArray(int row, int col)
     }
 
 }
-
 void PrintDoubleArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
